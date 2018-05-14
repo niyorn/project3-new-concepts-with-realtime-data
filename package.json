@@ -1,0 +1,29 @@
+{
+  "name": "de_ceuvel",
+  "version": "1.0.0",
+  "description": "Get notifcation when temperature is not optimal",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/niyorn/project3-new-concepts-with-realtime-data.git"
+  },
+  "keywords": [
+    "real",
+    "time"
+  ],
+  "author": "Chanakarn Niyornram",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/niyorn/real-time-web/issues"
+  },
+  "homepage": "https://github.com/niyorn/real-time-web#readme",
+  "dependencies": {
+    "ejs": "^2.5.8",
+    "express": "^4.16.3",
+    "nodemon": "^1.17.3"
+  }
+}
