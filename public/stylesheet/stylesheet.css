@@ -8,3 +8,70 @@ html, body{
     height: 100%;
     font-family: 'Ubuntu', sans-serif;
 }
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e4e3e3;
+}
+
+.logo{
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+}
+
+.temperature-container:before{
+    content: '';
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 50vh;
+    width: 100%;
+    background-color: black;
+    z-index: -1;
+}
+
+.temperature-container{
+    padding: 2.7rem;
+    background-color: white;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.temperature-container h1{
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.temperature-container p{
+    text-align: center;
+}
+
+.temperature-container .temperature{
+    font-size: 7em;
+    margin: 1rem 0;
+}
+
+.treshold-container{
+    padding: 1.4rem;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    background-color: white;
+    margin-left: 2rem;
+    max-width: 17em;
+    position: absolute;
+    right: -20em;
+}
+
+.treshold-container input{
+    width: 100%;
+    margin-top: 1rem;
+    text-align: center;
+    padding: 1rem;
+    font-weight: 700;
+}
