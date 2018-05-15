@@ -1,5 +1,22 @@
 <%- include partials/head.ejs %>
 
-<h1>It works</h1>
+<a class="logo" href="http://deceuvel.nl/en/">
+    <img src="http://deceuvel.nl/wp-content/themes/ceuvel/images/logo.svg" alt="logo of de Ceuvel" width="120">
+</a>
+
+<section class="temperature-container">
+    <h1>Hydroponics</h1>
+    <p>The temperature of the Hyrdoponics right now is:</p>
+    <p class="temperature">
+        <span class="temp-data">0</span><span class="temp-icon">&#8451;</span>
+    </p>
+
+    <section class="treshold-container">
+            <p>Set temperature treshold to activate notification</p>
+            <input class="treshold low" type="number" step="any" value="25" min="0" max="100">
+        </section>
+</section>
+
+
 
 <%- include partials/tail.ejs %>
